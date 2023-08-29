@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Log in</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More Items
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">veg</a></li>
+              <li><a class="dropdown-item" href="#">non veg</a></li>
+              <li>
+                <hr class="dropdown-divider"> cool drinks
+              </li>
+              <li><a class="dropdown-item" href="#">deserts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images tk/hotel.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images tk/bmw11.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images tk/BMWR1250GSA.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br>
+  <!-- <div class="card" style="width: 18rem;">
+    <img src="../images tk/biryani.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Non Veg Items</h5>
+      <p class="card-text">available.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">chicken biryani</li>
+      <li class="list-group-item">mutton biryani</li>
+      <li class="list-group-item">prawns biryani</li>
+    </ul>
+    
+  </div> -->
+  <!-- <div class="card text-bg-dark">
+    <img src="../images tk/biryani.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Non Veg Items</h5>
+      <p class="card-text">Non veg items available today</p>
+      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+      <ol>
+      <li class="list-group-item">chicken biryani</li>
+      <li class="list-group-item">mutton biryani</li>
+      <li class="list-group-item">prawns biryani</li>
+      </ol>
+    </div>
+  </div> -->
+  <div class="card-group">
+    <div class="card">
+      <img src="../images tk/friedrice.jpg" class="card-img-top" alt="..." height="481px">
+      <div class="card-body">
+        <h5 class="card-title">Veg</h5>
+        <p class="card-text">Veg menu available today</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 0 mins ago</small></p>
+        <ol>
+          <li>Plain Rice</li>
+          <li>Sambar Rice</li>
+          <li>Fried Rice</li>
+          <li>Curd Rice</li>
+          <li>Veg Pulav</li>
+        </ol>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../images tk/biryani.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Non Veg</h5>
+        <p class="card-text">Non Veg menu available today</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 0 mins ago</small></p>
+        <ol>
+          <li>Chicken Biryani</li>
+          <li>Mutton Biryani</li>
+          <li>Prawns Biryani</li>
+          <li>Fish Biryani</li>
+          <li>Egg Fried Rice</li>
+
+        </ol>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../images tk/deserts.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Deserts</h5>
+        <p class="card-text">Deserts available today</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 0 mins ago</small></p>
+        <ol>
+          <li>Sticky Date Pudding</li>
+          <li>Assorted Cakes</li>
+          <li>Desert Platter For Two</li>
+          <li>Lemon Meringue</li>
+          <li>Westernport Affogato</li>
+        </ol>
+      </div>
+    </div>
+  </div><br>
+  <div class="card" style="text-align: center">;
+    <div class="card-header">
+      THANK YOU VISIT AGAIN
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>Enjoy delicious food made for you</p>
+        <footer class="blockquote-footer">KR HOTEL AND RESTAURANT <cite title="Source Title"></cite></footer>
+      </blockquote>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

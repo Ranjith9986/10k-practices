@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar using media query</title>
+    <style>
+        .done{
+            background-color: lightgreen;
+            overflow: hidden;
+        }
+       .done a{
+       
+        
+         padding: 30px;
+         text-decoration: none;
+         float: left;
+         text-align: center;
+         color:darkorange;
+         
+
+       }
+     
+       @media screen and (max-width:500px){
+         div a{
+            float:none;
+            width:100%;
+         }
+       }
+        
+ 
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="done">
+       <a href="">Home</a>
+       <a href="">About</a> 
+       <a  href="">Services</a>
+       <a href="">Log in</a>
+       <a href="">Sign up</a>
+    </div>
+
+
+    </nav>
+    
+</body>
+</html>
